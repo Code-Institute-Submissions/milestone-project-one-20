@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*-------------------------------------------general*/
+
+body {
+    font-family: "Open sans", sans-serif;
+    color: rgb(105,21,17);
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: "Saira extra condensed", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Saira extra condensed", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(149, 44, 29);
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(53, 5, 0);
+    font-weight: 300;
+}
+
+.section {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.section img {
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    min-width: 350px;
+    max-width: 450px;
+}
+
+p {
+    padding: 0% 15% 5% 15%;
+    text-align: justify;
+}
+
+hr {
+    max-width: 150px;
+    border: 1px solid rgb(245, 194, 106);
+}
+
+p.text-align-center{
+    text-align: center;
+}
+
+div .text-align-right {
+    text-align: right;
+}
+
+div .text-align-left {
+    text-align: left;
+}
+
+.padding-bottom {
+    padding-bottom: 50px;
+}
+
+.col, [class*="col-"] {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*-------------------------------------------backgrounds*/
+
+#color {
+    background: linear-gradient(0deg, rgba(223, 170, 154, 0.2) 0%,  rgba(214,203,56,0.2) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%; 
+    min-height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.borderline {
+    border: 1px solid rgb(94, 28, 24);
+}
+
+/*-------------------------------------------heading*/
+
+
+.navbar {
+    border: 1px solid rgb(105,21,17);
+    background-color: #fff;
+}
+
+#logo {
+    position:relative;
+}
+
+#logo img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  transform: scale(1.1); 
+}
+
+#logo img.logotop:hover {
+  opacity:0;
+}
+
+.logobottom, .logotop {
+    height: 50px;
+    margin-top: -1.5rem;
+    margin-bottom: 0rem;
+    overflow: visible;
+    background-blend-mode: lighten;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(53,5,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(53, 5, 0);
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mt-2, .my-2 {
+    margin-top: 0!important;
+}
+
+.navbar-collapse {
+    padding-left: inherit;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+
+.grow:hover { 
+    transform: scale(1.1); 
+    color: rgb(149, 44, 29);
+    }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(149, 44, 29);
+}
+
+button:focus {
+    outline: 5px auto rgba(253, 71, 61, 0.5);
+}
+
+/*-------------------------------------------footer*/
+
+div.col-8.footer-address {
+    padding: 10px 0px 10px 40px;
+    text-align: center;
+}
+
+.footer-address-text {
+    font-size: 12px;
+    margin: auto;
+}
+
+.footer-social {
+    text-align: right;
+    margin: auto;
+}
+
+.social-icon {
+    color: rgb(53, 5, 0);
+    font-size: 30px;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.footer-border {
+    border: 1px solid rgb(105,21,17);
+    background-color: #fff;
+}
+
+.footer-icon {
+    padding: 5px;
+}
+
+/*-------------------------------------------index*/
+
+.hero {
+    margin-top: 50px;
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -100px;
+}
+
+
+#vimeohero iframe {
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 177.77vh; 
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.35); 
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    position: relative;
+    margin-left: 3vw;
+}
+
+.reserve-form {
+    max-width: 60%;
+    margin: auto;
+    padding-bottom: 100px;
+    background-color: transparent;
+}
+
+.btn-warning {
+    background: rgb(230, 184, 0);
+    background: linear-gradient(0deg, rgba(201,213,44,0.3)  0%,rgba(230, 184, 0,0.3) 100%);
+    color: rgb(105,21,17);
+    border: 1px solid rgb(105,21,17);
+    margin: auto;
+}
+
+/*-------------------------------------------contact*/
+
+iframe.iframe {
+    align-items: center;
+    padding: 20px 100px 100px 100px;
+    max-height: 700px;
+    overflow: hidden;
+}
+/*-------------------------------------------over ons/reserveren*/
+
+img.casacapello {
+    height: 80%;
+    margin-left: 50px;
+}
+
+img.casacapello2 {
+    max-height: 500px;
+    margin-left: 50px;
+}
+
+
+div.image-frame {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/*-------------------------------------------menu/wijnkaart*/
+
+
+div .menu-item {
+    padding: 0px 10px 20px 0px;   
+}
+
+div .bold {
+    font-weight: 700;
+}
+
+div .right {
+    text-align: right;
+}
+
+div .left {
+    text-align: left;
+}
+
+
+/*-------------------------------------------media query*/
+
+@media only screen and (max-width: 600px) {
+  iframe.iframe {
+    padding: 20px 20px 100px 20px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  iframe.iframe {
+    padding: 70px 200px 100px 200px;
+  }
+}
