@@ -227,6 +227,7 @@ div.col-8.footer-address {
     position: relative;
     overflow: hidden;
     margin-bottom: -100px;
+    object-fit: contain;
 }
 
 
@@ -240,12 +241,14 @@ div.col-8.footer-address {
 }
 
 .overlay {
-    height: 100%;
+    height: 56.25vw;
+    min-height: 100vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.35); 
     position: absolute;
     display: flex;
     align-items: center;
+    object-fit: contain;
 }
 
 .title {
