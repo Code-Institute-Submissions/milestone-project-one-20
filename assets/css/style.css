@@ -249,6 +249,7 @@ div.col-8.footer-address {
     display: flex;
     align-items: center;
     object-fit: contain;
+    overflow: hidden;
 }
 
 .title {
