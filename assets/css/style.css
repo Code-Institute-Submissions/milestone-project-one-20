@@ -58,6 +58,7 @@ h4 {
     width: 50%;
     min-width: 350px;
     max-width: 450px;
+    object-fit: contain;
 }
 
 p {
