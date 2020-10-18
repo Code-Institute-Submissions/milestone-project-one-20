@@ -204,7 +204,6 @@ div.col-8.footer-address {
 
 .social-icon {
     color: rgb(53, 5, 0);
-    font-size: 30px;
     font-size: 20px;
     padding-right: 25px;
 }
@@ -216,6 +215,7 @@ div.col-8.footer-address {
 
 .footer-icon {
     padding: 5px;
+    object-fit: contain;
 }
 
 /*-------------------------------------------index*/
