@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+<!--meta data-->
+    <!--code for meta data from https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML-->
     <meta charset="UTF-8">
     <meta name="description" content="Website van Restaurant Casa Capello in Den haag, Borneostraat 201, Menu">
     <meta name="keywords" content="Casa Capello, restaurant, den haag, ristorante, borneostraat 201, aldo capello, menu, menukaart">
@@ -9,6 +11,7 @@
     <meta property="og:description" content="Website van Restaurant Casa Capello in Den haag, Borneostraat 201, menu">
     <meta property="og:title" content="Casa Capello, Restaurant">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- From here until stylesheet of bootstrap favicon metadata from http://faviconit.com/en -->
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="assets/img/favicon/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="assets/img/favicon/favicon-192.png">
@@ -35,7 +38,9 @@
     <title>Casa Capello</title>
 </head>
 <body id="color">
+<!-- Header -->
 	<header>
+    <!-- navbar code copied from https://getbootstrap.com/docs/4.5/components/navbar/ -->
 		<nav class="navbar navbar-expand-sm navbar-light fixed-top">
 			<span class="grow"  id="logo">
                 <a  href="index.html"> 
@@ -68,102 +73,109 @@
 			</div>
 		</nav>
 	</header>
-	<section class="">
+<!-- paragraph about menu -->
+	<section>
 		<div class="section-heading section row justify-content-center">
 			<img src="assets/img/heading/menu.png" alt="menu">
 		</div>
 			<p>Wij serveren voornamelijk vers bereide pasta’s, maar ook authentieke antipasti en een vlees- en
 				visgerecht van de dag. Het menu verandert regelmatig, aangezien ik u graag zoveel mogelijk smaken van
 				thuis laat proeven.</p>
-            <div class="container">
-			
-				
-					<h3>ANTIPASTI</h3>
-					<hr>
-					<div class="padding-bottom"></div>
-					<div class="row">
-						<div class="col-12 col-lg-6">
-							<div class="row">
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Carne cruda
-										</div>
-										<div class="col-12 left"> Steak tartaar met geschaafde truffel en
-											parmezaanse kaas</div>
+<!--antipasti-->
+			<div class="container">
+				<h3>ANTIPASTI</h3>
+				<hr>
+				<div class="padding-bottom"></div>
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Carne cruda
+									</div>
+									<div class="col-12 left"> Steak tartaar met geschaafde truffel en
+										parmezaanse kaas
 									</div>
 								</div>
-								<div class="col-3">
-									<div class="left bold"> 13,5 </div>
-								</div>
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Panzanella
-										</div>
-										<div class="col-12 left">Typisch toscaanse salade met brood, tomaat, rode
-											ui, selderij en
-											aubergine</div>
-									</div>
-								</div>
-								<div class="col-3">
-									<div class="bold left">9 </div>
-								</div>
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Tomino Piemontese al forno
-										</div>
-										<div class="col-12 left">Italiaanse kaas uit de oven met walnoten,
-											gekarameliseerde uitjes
-											en
-											een zoet-pittige marmelade</div>
-									</div>
-								</div>
-								<div class="col-3">
-									<div class="left bold"> 10 </div>
-								</div>
-	
 							</div>
-						</div>
-						<div class="col-12 col-lg-6">
-							<div class="row">
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Carpaccio di salmone
-										</div>
-										<div class="col-12 left">Dungesneden zalm, gemarineerd in citrusfruit met
-											een frisse
-											koolsalade</div>
+							<div class="col-3">
+								<div class="left bold"> 13,5
+								</div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Panzanella
+									</div>
+									<div class="col-12 left">Typisch toscaanse salade met brood, tomaat, rode
+										ui, selderij en aubergine
 									</div>
 								</div>
-								<div class="col-3">
-									<div class="bold left">13 </div>
+							</div>
+							<div class="col-3">
+								<div class="bold left">9
 								</div>
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Moscardini e 'nduja
-										</div>
-										<div class="col-12 left"> Baby octopus met een 'nduja dressing (pittige
-											smeerworst uit
-											Calabrië) en gedroogde zwarte olijven</div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Tomino Piemontese al forno
+									</div>
+									<div class="col-12 left">Italiaanse kaas uit de oven met walnoten,
+										gekarameliseerde uitjes en een zoet-pittige marmelade
 									</div>
 								</div>
-								<div class="col-3">
-									<div class="left bold"> 13 </div>
-								</div>
-								<div class="col-9">
-									<div class="row menu-item">
-										<div class="col-12 bold left">Tagliere di salumi
-										</div>
-										<div class="col-12 left">Dun gesneden Italiaanse vleeswaren</div>
-									</div>
-								</div>
-								<div class="col-3">
-									<div class="bold left">11,5 </div>
+							</div>
+							<div class="col-3">
+								<div class="left bold"> 10
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="padding-bottom"></div>
-            </div>
+					<div class="col-12 col-lg-6">
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Carpaccio di salmone
+									</div>
+									<div class="col-12 left">Dungesneden zalm, gemarineerd in citrusfruit met
+										een frisse koolsalade
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="bold left">13
+								</div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Moscardini e 'nduja
+									</div>
+									<div class="col-12 left"> Baby octopus met een 'nduja dressing (pittige
+										smeerworst uit Calabrië) en gedroogde zwarte olijven
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="left bold"> 13
+								</div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Tagliere di salumi
+									</div>
+									<div class="col-12 left">Dun gesneden Italiaanse vleeswaren
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="bold left">11,5
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="padding-bottom"></div>
+			</div>
+<!--pasta-->
 			<div class="container">
 				<h3>PASTA</h3>
 				<hr>
@@ -180,7 +192,8 @@
 								</div>
 							</div>
 							<div class="col-3">
-								<div class="left bold"> 16</div>
+								<div class="left bold"> 16
+								</div>
 							</div>
 							<div class="col-9">
 								<div class="row menu-item">
@@ -191,18 +204,21 @@
 								</div>
 							</div>
 							<div class="col-3">
-								<div class="bold left">16</div>
+								<div class="bold left">16
+                                </div>
 							</div>
 							<div class="col-9">
 								<div class="row menu-item">
 									<div class="col-12 bold left">Maccheroni con formaggi, pancetta e radicchio
 									</div>
 									<div class="col-12 left">Maccheroni met taleggio, gorgonzola, spekjes, rode sla en
-										walnoot</div>
+										walnoot
+                                    </div>
 								</div>
 							</div>
 							<div class="col-3">
-								<div class="left bold"> 13,5 </div>
+								<div class="left bold"> 13,5 
+                                </div>
 							</div>
 						</div>
 					</div>
@@ -212,20 +228,22 @@
 								<div class="row menu-item">
 									<div class="col-12 bold left">Caserecce con pesto rosso, melanzane e burrata
 									</div>
-									<div class="col-12 left">Caserecce met verse rode pesto van gedroogde tomaat, aubergine
-										en burrata</div>
+									<div class="col-12 left">Caserecce met verse rode pesto van gedroogde tomaat, aubergine en burrata
+                                    </div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-3">
-									<div class="bold left">15 </div>
+									<div class="bold left">15 
+                                    </div>
 								</div>
 							</div>
 							<div class="col-9">
 								<div class="row menu-item">
 									<div class="col-12 bold left">Special del giorno
 									</div>
-									<div class="col-12 left">Special van de dag </div>
+									<div class="col-12 left">Special van de dag 
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -233,95 +251,107 @@
 				</div>
 				<div class="padding-bottom"></div>
 			</div>
-            <div class="container">
+<!--secondi-->
+			<div class="container">
 				<h3>SECONDI</h3>
 				<hr>
 				<div class="padding-bottom"></div>
 				<div class="row">
 					<div class="col-12 col-lg-6">
-                    <div class="row">
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Carne del giorno
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Carne del giorno
+									</div>
+									<div class="col-12 left">Vleesgerecht van de dag
+									</div>
 								</div>
-								<div class="col-12 left">Vleesgerecht van de dag</div>
 							</div>
 						</div>
-                        </div>
 					</div>
 					<div class="col-12 col-lg-6">
-                    <div class="row">
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Pesce del giorno
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Pesce del giorno
+									</div>
+									<div class="col-12 left">Visgerecht van de dag
+									</div>
 								</div>
-								<div class="col-12 left">Visgerecht van de dag</div>
 							</div>
 						</div>
-                        </div>
 					</div>
 				</div>
 				<div class="padding-bottom"></div>
 			</div>
-            <div class="container">
+<!--dolci-->
+			<div class="container">
 				<h3>DOLCI</h3>
 				<hr>
 				<div class="padding-bottom"></div>
 				<div class="row">
 					<div class="col-12 col-lg-6">
-                    <div class="row">
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Panna cotta
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Panna cotta
+									</div>
+									<div class="col-12 left">Panna cotta met een saus van de dag
+                                    </div>
 								</div>
-								<div class="col-12 left">Panna cotta met een saus van de dag</div>
+							</div>
+							<div class="col-3">
+								<div class="left bold"> 7
+                                </div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Tiramisu
+									</div>
+									<div class="col-12 left">Tiramisu met lange vingers, amaretto en koffie
+                                    </div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="bold left">7
+                                </div>
 							</div>
 						</div>
-						<div class="col-3">
-							<div class="left bold"> 7</div>
-						</div>
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Tiramisu
-								</div>
-								<div class="col-12 left">Tiramisu met lange vingers, amaretto en koffie</div>
-							</div>
-						</div>
-						<div class="col-3">
-							<div class="bold left">7</div>
-						</div>
-                        </div>
 					</div>
 					<div class="col-12 col-lg-6">
-                    <div class="row">
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Sgroppino
+						<div class="row">
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Sgroppino
+									</div>
+									<div class="col-12 left">Citroensorbet, wodka en prosecco
+                                    </div>
 								</div>
-								<div class="col-12 left">Citroensorbet, wodka en prosecco</div>
 							</div>
-						</div>
-						<div class="col-3">
-							<div class="left bold"> 7 </div>
-						</div>
-						<div class="col-9">
-							<div class="row menu-item">
-								<div class="col-12 bold left">Tagliere di formaggi
+							<div class="col-3">
+								<div class="left bold"> 7 
+                                </div>
+							</div>
+							<div class="col-9">
+								<div class="row menu-item">
+									<div class="col-12 bold left">Tagliere di formaggi
+									</div>
+									<div class="col-12 left">Verschillende soorten italiaanse kaas
+                                    </div>
 								</div>
-								<div class="col-12 left">Verschillende soorten italiaanse kaas</div>
 							</div>
-						</div>
-						<div class="col-3">
-							<div class="bold left">12 </div>
+							<div class="col-3">
+								<div class="bold left">12 
+                                </div>
+							</div>
 						</div>
 					</div>
-                    </div>
 				</div>
 				<div class="padding-bottom"></div>
-                <div class="padding-bottom"></div>
+				<div class="padding-bottom"></div>
 			</div>
-        
 	</section>
+<!--footer-->    
     <footer class="fixed-bottom footer-border">
 		<div class="row">
 			<div class="col-8 footer-address">
@@ -347,6 +377,7 @@
 			</div>
 		</div>
 	</footer>
+<!--JavaScript-->    
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

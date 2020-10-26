@@ -61,6 +61,8 @@ h4 {
     object-fit: contain;
 }
 
+/* Found the object-fit: contain solution for the problem of the img streching on other browsers by reading https://stackoverflow.com/questions/29551637/css-image-scaling-issue-with-flexbox-in-firefox-internet-explorer answer of Carl.*/
+
 p {
     padding: 0% 15% 5% 15%;
     text-align: justify;
@@ -92,6 +94,8 @@ div .text-align-left {
     padding-left: 20px;
   }
 
+/*Idea for selector [class*="col-"] came from reading https://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 answer by Hashem Qolami.*/
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -109,6 +113,8 @@ div .text-align-left {
     margin: 0;
     padding: 0;
 }
+
+/* Found the way to make a gradient css background color (the attribute of background) on https://cssgradient.io/ . */
 
 .borderline {
     border: 1px solid rgb(94, 28, 24);
@@ -148,9 +154,13 @@ div .text-align-left {
     background-blend-mode: lighten;
 }
 
+/*Copied #logo img, :hover, .logobottom and .logotop code to transform logo on hover from http://css3.bradshawenterprises.com/cfimg/ Demo 1 - One image to another, on hover. */
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(53,5,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+/* copied code on how to change the color on bootstrap toggler icon from https://stackoverflow.com/questions/24080462/how-to-change-bootstrap-toggle-navigation-color/24080725 answer by Zim. */
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(53, 5, 0);
@@ -169,13 +179,24 @@ div .text-align-left {
 }
 
 .grow { 
-    transition: all .2s ease-in-out; 
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out; 
     }
 
 .grow:hover { 
-    transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     color: rgb(149, 44, 29);
     }
+
+/* Copied code for grow on :hover (.grow and .grow:hover from https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ 
+and added browser attributes by using http://css3generator.com/ - added the information and copied the code here for transform and transition attributes*/
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(149, 44, 29);
@@ -230,6 +251,9 @@ div.col-8.footer-address {
     object-fit: contain;
 }
 
+/* Snippets still remaining in .hero and .overlay and .title of the original hero-image (animation) with transparent overlay copied from 
+https://medium.com/@ItsMeDannyZ/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c */
+
 
 #vimeohero iframe {
     position: absolute;
@@ -239,6 +263,8 @@ div.col-8.footer-address {
     min-height: 100vh;
     min-width: 177.77vh; 
 }
+
+/* Hero video code copied from https://stackoverflow.com/questions/56341147/responsive-hero-with-vimeo-background/56341526 answer of Adel */
 
 .overlay {
     height: 56.25vw;

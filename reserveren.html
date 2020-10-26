@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+<!--meta data-->
+    <!--code for meta data from https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML-->
     <meta charset="UTF-8">
     <meta name="description" content="Website van Restaurant Casa Capello in Den haag, Borneostraat 201, reserveer nu!">
     <meta name="keywords" content="Casa Capello, restaurant, den haag, ristorante, borneostraat 201, aldo capello, reserveren">
@@ -9,6 +11,7 @@
     <meta property="og:description" content="Website van Restaurant Casa Capello in Den haag, Borneostraat 201, reserveer nu!">
     <meta property="og:title" content="Casa Capello, Restaurant">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- From here until stylesheet of bootstrap favicon metadata from http://faviconit.com/en -->
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="assets/img/favicon/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="assets/img/favicon/favicon-192.png">
@@ -35,7 +38,9 @@
     <title>Casa Capello</title>
 </head>
 <body>
+<!--header-->
 	<header>
+    <!-- navbar code copied from https://getbootstrap.com/docs/4.5/components/navbar/ -->
 		<nav class="navbar navbar-expand-sm navbar-light fixed-top">
 			<span class="grow"  id="logo">
                 <a  href="index.html"> 
@@ -46,7 +51,6 @@
 			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<li class="nav-item">
@@ -68,6 +72,7 @@
 			</div>
 		</nav>
 	</header>
+<!--reserve paragraph-->    
     <section>
          <div class="section">
             <div class="section-heading row justify-content-center">
@@ -79,11 +84,12 @@
             <img class="casacapello2" src="assets/img/111.jpg" alt="foto van twee plankjes met het logo van Casa Capello erop, vol met diverse antipasti zoals salami, ham, olijven, ruccola, vijgen, diverse soorten kaas en walnoten">
         </div>
         <div class="col-12 col-lg-7">
-        <p>Wilt u voor deze dag reserveren, maar het is al na 14:00u? Reserveer dan via de telefoon. 
-Online reserveringen voor deze dag worden na 14:00u helaas niet meer in behandeling genomen. 
-
-Let op: Casa Capello is gesloten op zondag en maandag.</p>
-            <form class="reserve-form">
+        <p> Wilt u voor deze dag reserveren, maar het is al na 14:00u? Reserveer dan via de telefoon. 
+            Online reserveringen voor deze dag worden na 14:00u helaas niet meer in behandeling genomen. 
+            Let op: Casa Capello is gesloten op zondag en maandag.</p>
+<!--reserve form-->
+        <!-- form html code from bootstrap https://getbootstrap.com/docs/4.0/components/forms/-->
+        <form class="reserve-form">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="name" class="col-form-label">Naam</label> 
@@ -96,6 +102,7 @@ Let op: Casa Capello is gesloten op zondag en maandag.</p>
                 </div>
                 <div class="form row">
                     <div class="form-group col-12">
+                    <!-- Number dropdown menu with bootstrap from https://bootsnipp.com/snippets/bplPe-->
                         <label for="number">Personen</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option value="1">1</option>
@@ -125,6 +132,7 @@ Let op: Casa Capello is gesloten op zondag en maandag.</p>
         </div>
         </div>
     </section>
+<!--footer-->    
    <footer class="fixed-bottom footer-border">
 		<div class="row">
 			<div class="col-8 footer-address">
@@ -150,6 +158,7 @@ Let op: Casa Capello is gesloten op zondag en maandag.</p>
 			</div>
 		</div>
 	</footer>
+<!--JavaScript-->    
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
