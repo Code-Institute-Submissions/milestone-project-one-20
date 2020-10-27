@@ -89,6 +89,10 @@ div .text-align-left {
     padding-bottom: 50px;
 }
 
+div.extra {
+    margin-bottom: 50px;
+}
+
 .col, [class*="col-"] {
     padding-right: 20px;
     padding-left: 20px;
@@ -179,11 +183,11 @@ div .text-align-left {
 }
 
 .grow { 
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out; 
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; 
     }
 
 .grow:hover { 
@@ -323,6 +327,21 @@ img.casacapello2 {
 div.image-frame {
     max-width: 100%;
     overflow: hidden;
+}
+
+h4.media-heading {
+    font-weight: 300;
+    text-align: center;
+}
+
+p.media-links {
+    font-family: "Saira extra condensed", sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+.media-links a {
+    color: rgb(149, 44, 29);
 }
 
 /*-------------------------------------------menu/wijnkaart*/
