@@ -35,6 +35,8 @@ Features Left to Implement
 Reserve form: interactive by a clickable calendar and a back end integration
 email adress is a link and opens in user email in pop up
 instagram live feed visible on one of the pages
+modal pop up of cookies (when there are tracking cookies)
+modal pop up of succesful reservation/unsuccesful reservation (when reserving is possible)
 
 Technologies Used
 This site was created using HTML, CSS and a tiny bit of bootstraps JavaScript.
