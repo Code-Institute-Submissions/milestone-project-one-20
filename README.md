@@ -74,6 +74,10 @@ I filled in the reservation form in correct and incorrect ways to check if it wa
 I used LambdaTest (https://www.lambdatest.com/feature) to create screenshots throughout browsers to check if everything looks the same, and 
 Browserling (https://www.browserling.com/) and LambdaTest to surf around the site in different browsers to compare the ui. 
 
+I found out that the hero video and overlay was faulty on all other browsers then chrome. I managed to fix this by making the code more precise on size and place.
+
+The images were stretched in other browsers, i found the solution on StackOverflow and used the obect fit property to solve this. 
+
 I discovered that the footer icons do not center vertically in IE 11 and lower, but I did not solve this issue yet.
 Vimeo video does not play in opera, I did not solve this issue yet, because when I search for solutions it javascript that comes up.
 I'll save that fun for when I learned something about it. 
@@ -94,7 +98,8 @@ and is live here:
 https://annakovesdi.github.io/milestone-project-1/
 
 
-This site will eventually be used by Casa Capello restaurant in Den Haag. But first, I have to learn a lot more to complete it, so I can deliver a full-stack project. This means it will not be officially deployed untill i finish school. 
+This site will eventually be used by Casa Capello restaurant in Den Haag. But first, I have to learn a lot more to complete it, so I can deliver a full-stack project. This means it will not be officially deployed untill i finish school,
+on casacapello.nl. For now it is deployed through GitHub Pages. GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
 
 ## *Credits*
 Content
