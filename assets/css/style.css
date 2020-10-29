@@ -98,6 +98,10 @@ div.extra {
     padding-left: 20px;
   }
 
+ a {
+    text-decoration: none !important;
+} 
+
 /*Idea for selector [class*="col-"] came from reading https://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 answer by Hashem Qolami.*/
 
 .uppercase {
