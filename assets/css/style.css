@@ -232,6 +232,8 @@ div.col-8.footer-address {
     text-align: right;
     margin: auto;
     padding-left: 0;
+    display: table;
+    width: 100%;
 }
 
 .social-icon {
@@ -239,6 +241,8 @@ div.col-8.footer-address {
     font-size: 20px;
     padding-right: 22px;
     object-fit: contain;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 i.social-icon.padding {
