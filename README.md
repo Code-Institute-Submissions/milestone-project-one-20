@@ -25,6 +25,19 @@ The wireframe that was created, very basic, for the index page:
 ## Features
 
 ### *Existing Features*
+
+#### Index
+
+The index page is the place to evoke the emotional response to visit the restaurant. It features a muted hero video of professional pictures
+of the interior and food of the place, with an overlay that suggests poetically the expected atmosphere - casual and fine. Also the name of the restaurant is displayed. 
+Under the attractive video there is a peekaboo of the heading of the reservation form, to suggest a visitor of the site to reserve a place on the spot. 
+
+#### Over ons
+
+In the about us section a short and clear text describes the restaurant and a short quote by Aldo, the chef and entrepeneur, is 
+giving the audience a warm welcome. On large screens an old foto of the family place (the original Casa Capello) is visible. 
+At hte bottom of the page small links are visitable, newspapers that reported on the restaurant, for the very interested guest.
+
 Reserve a place in the restaurant by filling in the form on the index or reserveren pages.
 Find the restaurant by visiting the contact page and observing the telephone number, email address, opening hours, address and a visual representation of the address by GoogleMaps.
 View the menu by visiting the menu page.

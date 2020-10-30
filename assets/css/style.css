@@ -238,6 +238,7 @@ div.col-8.footer-address {
     color: rgb(53, 5, 0);
     font-size: 20px;
     padding-right: 22px;
+    object-fit: contain;
 }
 
 i.social-icon.padding {
