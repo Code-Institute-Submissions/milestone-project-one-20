@@ -236,13 +236,17 @@ div.col-8.footer-address {
     width: 100%;
 }
 
+.ie-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .social-icon {
     color: rgb(53, 5, 0);
     font-size: 20px;
     padding-right: 22px;
     object-fit: contain;
-    display: table-cell;
-    vertical-align: middle;
+    
 }
 
 i.social-icon.padding {
