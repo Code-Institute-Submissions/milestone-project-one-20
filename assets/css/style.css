@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     height: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -100,6 +101,7 @@ div.extra {
 
  a {
     text-decoration: none !important;
+    color: rgb(233, 70, 44);
 } 
 
 /*Idea for selector [class*="col-"] came from reading https://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 answer by Hashem Qolami.*/
@@ -232,21 +234,12 @@ div.col-8.footer-address {
     text-align: right;
     margin: auto;
     padding-left: 0;
-    display: table;
-    width: 100%;
-}
-
-.ie-align-center {
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .social-icon {
     color: rgb(53, 5, 0);
     font-size: 20px;
     padding-right: 22px;
-    object-fit: contain;
-    
 }
 
 i.social-icon.padding {
